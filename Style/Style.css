@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#header-top{
+    position: fixed;
+    width: 100%;
+    padding: 30px 4rem;
+    background-color: #212529;
+}
+
+#header-top .left{
+    width: 50%;
+    float: left;
+    
+}
+#header-top .right{
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+#header-top .left a{
+    font-size: 30px;
+    color: #FED136;
+}
+#header-top .right a{
+    font-size: larger;
+    color: #fff;
+    padding-left: 40px;
+}
+#Header{
+    padding: 15rem 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;  
+    background-image:  url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    color: #fff;
+    font-size: 35px;
+}
+#Header button{
+    cursor: pointer;
+    
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 40px;
+    border: 1px solid #FFC800;
+    border-radius: 2px;
+    background-color: #FFC800;
+}
+#SFirst{
+    height: 650px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;;
+}
+.FS-box{
+    width: 90%;
+    margin: auto;
+}
+#SFirst span{
+    color: #B5BABE;
+}
+.FS-box{
+    width: 80%;
+    margin-left: 210px;
+}
+.FS-box .box{
+    width: 30%;
+    float: left;
+    padding: 4rem 1rem;
+}
+.FS-box .box .top img{
+    width: 50%;
+}
+.FS-box .box .botom{
+    padding: 10px 0 0 0;
+    font-size: 20px;
+}
+.FS-box .box .botom h1{
+    padding-bottom: 10px;
+}
+#SSeconde{
+    text-align: center;
+    background-color: #F8F9FA;
+    height: 600px;
+    padding-bottom: 40px;
+    padding: 70px 0;
+}
+#SSeconde p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 50px 0;
+}
+.all-prfl{
+    
+    width: 90%;
+    margin: auto;
+    margin-left: 100px;
+}
+.all-prfl .box{
+    background-color: #fff;
+    width: 30%;
+    float: left;
+    margin: 10px 10px;
+}
+.all-prfl .box .top img{
+    width: 100%;
+}
+.all-prfl .box .botom{
+    padding: 2rem;
+    text-align: center;
+
+}
+#SThrid{
+    height: 700px;
+    background-color: #F8F9FA;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;;
+
+}
+#SSeventh{
+    background-color: #212529;
+    background-position: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    height: 700px;
+    text-align: center;
+    color: #F8F9FA;
+}
+.all-S .box-seven{
+    margin: auto;
+    widows: 70%;
+}
+.all-S .box-seven .left .text-cntc{
+    display: block;
+    margin-top: 10px;
+    padding: 1rem 7rem;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+
+}
+.all-S .box-seven .right .textarea-ctn{
+    padding: 1rem 7rem;
+}
+
+#SEighth{
+    height: 70px;
+    background-color: #fff;
+}
+#SEighth .left{
+    padding-top: 25px;
+    padding-left: 50px;
+    float: left;
+}
+#SEighth .right{
+    padding-top: 5px;
+    padding-right: 50px;
+    float: right;
+}
+#SEighth .right a{
+    padding-right: 10px;
+    color: black;
+    font-size: 15px;
+}
