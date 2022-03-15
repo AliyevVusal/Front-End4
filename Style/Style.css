@@ -39,9 +39,8 @@
     color: #fff;
     font-size: 35px;
 }
-#Header button{
+.button-ylw{
     cursor: pointer;
-    
     margin-top: 40px;
     font-size: 20px;
     color: #fff;
@@ -86,8 +85,7 @@
 #SSeconde{
     text-align: center;
     background-color: #F8F9FA;
-    height: 600px;
-    padding-bottom: 40px;
+    height: 1300px;
     padding: 70px 0;
 }
 #SSeconde p{
@@ -117,12 +115,21 @@
 }
 #SThrid{
     height: 700px;
-    background-color: #F8F9FA;
+    background-color: #fff;
     text-align: center;
-    padding-top: 100px;
-    font-size: 20px;;
+    font-size: 20px;
+    
 
 }
+#SThrid .FS-box .box .top img{
+    width: 70%;
+    border: 10px solid #B5BABE;
+    border-radius: 100%;
+}
+
+
+
+
 #SSeventh{
     background-color: #212529;
     background-position: center;
@@ -132,8 +139,9 @@
     color: #F8F9FA;
 }
 .all-S .box-seven{
-    margin: auto;
+    display: flex;
     widows: 70%;
+    justify-content: center;
 }
 .all-S .box-seven .left .text-cntc{
     display: block;
@@ -145,7 +153,28 @@
 }
 .all-S .box-seven .right .textarea-ctn{
     padding: 1rem 7rem;
+} 
+
+.box-seven .right{
+    width: 48%;
+    float: left;
 }
+
+.box-seven .left{
+    widows: 48%;
+    float: left;
+}
+.all-S h1{
+    font-size: 50px;
+    padding-top: 80px;
+}
+.all-S p{
+    color: #49637A;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
 
 #SEighth{
     height: 70px;
